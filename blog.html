@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        section {
+            flex: 2;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Blog</h1>
+        <p>Exploring the world one blog post at a time.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <article>
+                <h2>My Latest Adventure</h2>
+                <p><strong>Date:</strong> September 4, 2024</p>
+                <p><strong>Author:</strong> Jane Doe</p>
+                <img src="paris.jpg" alt="Adventure Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Location</th>
+                            <th>Duration</th>
+                            <th>Activities</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paris</td>
+                            <td>5 days</td>
+                            <td>Sightseeing, Museums, Dining</td>
+                        </tr>
+                        <tr>
+                            <td>London</td>
+                            <td>3 days</td>
+                            <td>Historical Sites, Shopping</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+            <article>
+                <h2>Exploring New Recipes</h2>
+                <p><strong>Date:</strong> August 28, 2024</p>
+                <p><strong>Author:</strong> Jane Doe</p>
+                <img src="recipes.jpg" alt="Recipes Image" width="600">
+                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio tincidunt auctor. Nam sit amet est nec felis vehicula sagittis.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Blog Categories</h3>
+            <ul>
+                <li><a href="#adventures">Adventures</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#lifestyle">Lifestyle</a></li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#latest-adventure">My Latest Adventure</a></li>
+                <li><a href="#new-recipes">Exploring New Recipes</a></li>
+            </ul>
+
+            <h3>Subscribe</h3>
+            <form action="subscribe.php" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        <p>
+            Follow me on 
+            <a href="https://twitter.com/myprofile" target="_blank">Twitter</a> | 
+            <a href="https://facebook.com/myprofile" target="_blank">Facebook</a> |
+            <a href="mailto:contact@myblog.com">Contact Me</a>
+        </p>
+    </footer>
+</body>
+</html>
